@@ -1,4 +1,4 @@
-﻿body {
+body {
   height: 100vh;
   margin: 0;
   background: linear-gradient(-45deg, #000000, #000000, #002930, #00ff44);
@@ -160,5 +160,34 @@ section {
     font-size: 20px;;
     background-color: rgb(6, 209, 6);
     color: blanchedalmond;
-    margin-bottom: 50px;
+    padding: 10px 20px 20px 20px;
+}
+
+.contact h2 {
+    margin-bottom: 0;
+    padding-top: 60px;
+}
+.adms-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+.adms-info {
+    border-radius: 30px;
+    border: 2px solid rgb(7, 201, 24);
+    padding: 20px;
+    width: 100px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;      /* organiza os itens em coluna */
+    align-items: center;         /* centraliza tudo horizontalmente */
+}
+.adms-info img {
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    margin-bottom: 10px;
 }
