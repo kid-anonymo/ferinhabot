@@ -162,10 +162,10 @@ section {
     color: blanchedalmond;
     padding: 10px 20px 20px 20px;
 }
-
-.contact h2 {
-    margin-bottom: 0;
-    padding-top: 60px;
+.contact button:hover {
+    background-color: rgb(236, 9, 9);
+    color: black;
+    transform: scale(1.05);
 }
 .adms-container {
     display: flex;
@@ -190,4 +190,33 @@ section {
     height: 110px;
     border-radius: 50%;
     margin-bottom: 10px;
+}
+.documentation {
+    align-items: center;
+    border-radius: 20px;
+    border: #00ff44 2px solid;
+    padding: 20px 50px;
+    font-size: 20px;
+    text-align: center;
+    color: rgb(5, 1, 1);
+    flex-direction: column;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    width: fit-content;
+}
+.documentation button {
+    background-color: rgb(7, 201, 24);
+    margin: 0 auto;
+    color: black;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s, transform 0.2s;
 }
